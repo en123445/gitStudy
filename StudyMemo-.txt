@@ -1,0 +1,29 @@
+命令行
+************************
+cd XX* //模糊切换目录
+cd .. //回退到上一个目录
+q //退出当前操作
+reset //清屏，把git bash命令窗口中的所有内容清空
+clear //清屏
+git clone url //克隆原始版本
+git init //初始化工作区
+git status //查看状态
+git add xxx.x //工作区文件 -> 缓存区
+git commit //确定缓存区修改
+git log //查看commit记录
+git log --graph --oneline branch1 branch2 //可视化两个分支的简要commit记录
+git log -n 1 //仅显示几次log
+git diff old.x new.x//查看old和new的区别，视角：old被做了什么
+git branch //取得分支列表，当前分支以*表示
+git branch name//创建分支
+git checkout branchName//切换分支
+git checkout commitId//签出提交版本
+git checkout -b newBranchName//创建新分支保存修改
+git merge branch1 branch2 //合并分支
+git merge --abort //回退合并
+git show commitId//比较与父commit的差别
+git branch -d branchName//删除分支（标签）
+git remote add storeName url//创建github远程仓库
+git remote -v//查看github远程仓库（详情）
+git push storeName branchName//上传
+git pull //下载
